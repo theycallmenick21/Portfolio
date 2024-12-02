@@ -1363,7 +1363,7 @@ textarea.form-input::-webkit-resizer {
     * responsive larger than 450px screen
     */
 
-@media (min-width: 450px) {
+@media (min-width: 400px) {
 
   /**
       * client
@@ -1375,7 +1375,7 @@ textarea.form-input::-webkit-resizer {
 
 
 
-  /**
+  /**s
       * #PORTFOLIO, BLOG 
       */
 
@@ -1384,6 +1384,14 @@ textarea.form-input::-webkit-resizer {
     height: auto;
   }
 
+  .profile-pic {
+    margin: 0 0 0 28% !important;
+    max-width: 40% !important;
+  }
+
+  .avatar-box {
+    background: transparent !important;
+  }
 }
 
 
@@ -1733,6 +1741,12 @@ textarea.form-input::-webkit-resizer {
     font-size: 18px;
   }
 
+
+  .profile-pic {
+    margin-left: 25% !important;
+    max-width: 50% !important;
+  }
+
 }
 
 
@@ -2068,8 +2082,8 @@ textarea.form-input::-webkit-resizer {
   .sidebar {
     position: sticky;
     top: 60px;
-    max-height: 700px;
-    min-height: 695PX;
+    max-height: 590px;
+    min-height: 580px;
     height: 100%;
     margin-bottom: 0;
     padding-top: 60px;
